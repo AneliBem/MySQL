@@ -12,4 +12,4 @@ mv ~/backup_$DATE.sql backup.sql
 
 git add backup.sql
 git commit -m "Auto backup $DATE"
-git push origin main
+git push origin master
