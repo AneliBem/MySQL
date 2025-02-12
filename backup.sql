@@ -38,7 +38,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Андрей','test@mail.com','просто программист','2050-04-04'),(2,'Петр','example@gmail.com',NULL,'2024-12-04'),(3,'Боб',NULL,NULL,'2009-12-29'),(4,'Bob','test@gmail.com',NULL,'2004-03-02'),(5,'Максим','maksim@gmail.com',NULL,'2004-03-02'),(6,'Bob','test@gmail.com',NULL,'2004-03-02');
+INSERT INTO `users` VALUES (1,'Андрей','test@mail.com','просто программист','2050-04-04'),(2,'Петр','example@gmail.com',NULL,'2024-12-04'),(3,'Боб',NULL,NULL,'2009-12-29'),(4,'Bob','test@gmail.com',NULL,'2004-03-02'),(5,'Максим','maksim@gmail.com',NULL,'2004-03-02'),(6,'Иван','ivan@gmail.com','Text','2004-03-02');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-02-11 15:58:50
+-- Dump completed on 2025-02-12 18:15:09
