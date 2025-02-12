@@ -36,7 +36,7 @@ CREATE TABLE `test` (
 
 LOCK TABLES `test` WRITE;
 /*!40000 ALTER TABLE `test` DISABLE KEYS */;
-INSERT INTO `test` VALUES (1,'Текст 1','Текст'),(2,'Текст 2','Текст'),(3,'Текст 3','Текст'),(4,'Текст 4','Текст');
+INSERT INTO `test` VALUES (1,'Текст 1','Текст'),(3,'Текст 3','Текст'),(4,'Текст 4','Текст');
 /*!40000 ALTER TABLE `test` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -76,4 +76,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-02-12 18:51:43
+-- Dump completed on 2025-02-12 18:55:06
