@@ -33,7 +33,7 @@ CREATE TABLE `orders` (
   KEY `personId` (`personId`),
   CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`shopId`) REFERENCES `shop` (`id`),
   CONSTRAINT `orders_ibfk_2` FOREIGN KEY (`personId`) REFERENCES `users` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,6 +42,7 @@ CREATE TABLE `orders` (
 
 LOCK TABLES `orders` WRITE;
 /*!40000 ALTER TABLE `orders` DISABLE KEYS */;
+INSERT INTO `orders` VALUES (1,1,2,4,'2025-02-14 01:06:24'),(2,2,3,6,'2025-02-14 01:06:24'),(3,3,1,3,'2025-02-14 01:06:24'),(4,4,3,2,'2025-02-14 01:06:24'),(5,5,5,5,'2025-02-14 01:06:24'),(6,6,3,1,'2025-02-14 01:06:24'),(7,7,2,4,'2025-02-14 01:06:24');
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -107,4 +108,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-02-14  1:00:41
+-- Dump completed on 2025-02-14  1:07:34
